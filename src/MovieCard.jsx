@@ -29,7 +29,7 @@ class MovieCard extends React.Component {
               <img
                 className="str-btn"
                 alt="Decrease"
-                src="https://cdn-icons-png.flaticon.com/128/2801/2801932.png"
+                src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3237057/subtract-circle-icon-md.png"
                 onClick={() => onDecStars(movies)}
               />
               <img
@@ -40,7 +40,7 @@ class MovieCard extends React.Component {
               <img
                 className="str-btn"
                 alt="increase"
-                src="https://cdn-icons-png.flaticon.com/128/2997/2997933.png"
+                src="https://th.bing.com/th/id/OIP.lILRBbn-tHan8fFgPoaw-AHaHa?w=980&h=982&rs=1&pid=ImgDetMain"
                 onClick={() => onIncStars(movies)}
               />
               <span className="starCount">{stars}</span>
